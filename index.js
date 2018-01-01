@@ -5,14 +5,14 @@ function happyHolidays()
 }
 function happyHolidaysTo(name)
 {
-  return("Happy holidays  ${name}  !")
+  return("Happy holidays" +  name +  "!")
 }
 function happyHolidayTo(holiday, name)
 {
-  return('Happy ${holiday],  $[name] !')
+  return("Happy " + (holiday) + ", "+(name) + "! ")
 }
 function holidayCountown(holiday, days)
 {
-  return('Its $[days] days until $[holiday]}')
+  return("It's "+ (days) + "days until" + (holiday) + "")
 }
 
