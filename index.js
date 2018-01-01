@@ -11,8 +11,8 @@ function happyHolidayTo(holiday, name)
 {
   return("Happy " + (holiday) + ", " +(name) + "!")
 }
-function holidayCountown(holiday, days)
+function holidayCoundown(holiday, days)
 {
-  return("It's " + (days) + "days until" + (holiday) + "")
+  return("It's " + (days) + " days until" + (holiday) + "")
 }
 
